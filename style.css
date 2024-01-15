@@ -1,0 +1,23 @@
+header {
+  display: inline-block;
+  font-size: 60px;
+}
+img {
+  width: 60px;
+}
+
+aside {
+  width: 20vw;
+  background-color: aqua;
+  margin: 0 10px 0 10px;
+  height: 300px;
+}
+#left {
+  float: left;
+}
+#rigth {
+  float: right;
+}
+main {
+  display: inline-block;
+}
