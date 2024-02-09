@@ -1,0 +1,38 @@
+.alldivs {
+  display: grid;
+  grid-template-columns: 20% 13% 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  grid-template-areas:
+    "logo header header header"
+    "aside1 aside1 main aside2";
+}
+.logo {
+  grid-area: logo;
+  background-color: aqua;
+  text-align: center;
+  padding: 30px;
+}
+.header {
+  grid-area: header;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 30px;
+}
+.aside1 {
+  grid-area: aside1;
+  background-color: cadetblue;
+  text-align: center;
+  padding: 30px;
+}
+.main {
+  grid-area: main;
+  background-color: azure;
+  text-align: center;
+  padding: 30px;
+}
+.aside2 {
+  grid-area: aside2;
+  background-color: cadetblue;
+  text-align: center;
+  padding: 30px;
+}
